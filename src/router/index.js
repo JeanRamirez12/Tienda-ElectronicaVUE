@@ -9,6 +9,7 @@ import EditarVenta from '../components/ventas/EditarVenta.vue';
 import NewVenta from '../components/ventas/NewVenta.vue';
 import Ventas from '../views/Ventas';
 
+
 const routes = [
   {
     path: '/',
@@ -46,6 +47,7 @@ const routes = [
     component: EditarVenta
   },
   {
+
     path: '/about',
     name: 'about',
     // route level code-splitting
